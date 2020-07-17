@@ -84,16 +84,91 @@
 
 
 //template string
-const title = 'best reads 2020';
-const author = 'Octavio';
-const likes = 30;
+// const title = 'best reads 2020';
+// const author = 'Octavio';
+// const likes = 30;
 
 //  concatenation way
 // let result = 'the blog ' + title + ' from author ' + author + ' hav ' + likes+ ' likes.';
 // console.log(result);
 
 //template concatenation way
-let result = `the blog called ${title} by ${author} has ${likes} likes.`;
-console.log(result);
+// let result = `the blog called ${title} by ${author} has ${likes} likes.`;
+// console.log(result);
 
-//
+
+// let html = `
+// <h2>${title}</h2>
+// <p>${author}</p>
+// <span>this blog has ${likes} likes.</span>
+// `
+// console.log(html);
+
+// let ninjas=['shaun', 'riu', 'chun-li'];
+// console.log(ninjas[0]);
+
+// ninjas[1] = 'crystal';
+// let ages = [20,25,30,35];
+// console.log(ages[2]);
+
+// let ramdon = ['octavio', 'godoy', 20,36.2];
+// console.log(ramdon);
+
+// console.log(ninjas.length);
+
+// array methods
+
+// let result = ninjas.join('-');
+// let result = ninjas.indexOf('chun-li');
+// let result = ninjas.concat(['ken','crystal']);
+// let result = ninjas.push('ken');
+// result = ninjas.pop();
+// console.log(result);
+
+// let age=null;
+// console.log(age, age +3, `the age is ${age}`);
+
+// boolean and comparations
+// console.log(true, false, "True","false");
+
+let email = 'octaviogodoyg@gmail.com';
+let names = ['mario','luigi','toad'];
+
+// let result = email.includes('@');
+// result = names.includes('luigy');
+
+// console.log(result);
+let age = 25;
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age < 20);
+// console.log(age > 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+let name = 'octavio';
+// console.log(name=='octavio');
+// console.log(name=='Octavio');
+// console.log(name=='crystal');
+// console.log(name>'Octavio');
+// console.log(name>'Crystal');
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25');
+
+
+let score = '100';
+// score = Number(score);
+// console.log(score +1);
+// console.log(typeof score);
+
+console.log(Number('36'));
+console.log(String('36'));
+console.log(score,  typeof score);
