@@ -73,16 +73,53 @@
 // }
 
 
-const grade = 'D';
+// const grade = 'P';
 
 // switch statements
 
-if (grade==='A') {
-    
-} else if (grade==='B') { 
-} else if (grade==='C') { 
-} else if (grade==='D') { 
-} else if (grade==='E') { 
-} else {
-    
+// if (grade==='A') {
+// } else if (grade==='B') { 
+// } else if (grade==='C') { 
+// } else if (grade==='D') { 
+// } else if (grade==='E') { 
+// } else {
+// }
+
+// switch (grade) {
+//     case 'A':
+//         console.log('you got an A!');
+//         break;
+//     case 'B':
+//         console.log('you got an B!');
+//         break;
+//     case 'C':
+//         console.log('you got an C!');
+//         break;
+//     case 'D':
+//         console.log('you got an D!');
+//         break;
+//     case 'E':
+//         console.log('you got an E!');
+//         break;
+//     default:
+//         console.log('not a valid grade');
+//         break;
+// }
+
+
+// variables and block scope
+
+let age =30;
+
+if (true) {
+    let age = 40;
+    let name ='octavio';
+    console.log('inside 1st code block ', age, name);
+
+    if (true) {
+        let age = 50;
+        console.log('inside 1st code block ', age, name);
+        var test = 'prueba';
+    }
 }
+console.log('outside code block ',age, name, test);
